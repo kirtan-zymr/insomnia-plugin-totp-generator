@@ -3,24 +3,14 @@
   "version": "0.0.1",
   "main": "main.js",
   "description": "Insomnia MFA Authenticator",
-  "author": "Kevin OH",
-  "license": "MIT",
+  "author": "Kirtan",
   "insomnia": {
-    "name": "mfa-authenticator",
-    "description": "Authenticator generates two-factor authentication codes in Insomnia",
-    "publisher": {
-      "name": "Kevin OH",
-      "icon": "https://avatars.githubusercontent.com/u/26478090?s=460&u=2a3cf1181e3bf7d5dbbd0ff731972f602ef59bc1&v=4"
-    },
+    "name": "TOTP",
     "applications": {
       "designer": "*",
       "core": "*",
       "cli": "*"
     }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mukkka3/insomnia-plugin-mfa-code"
   },
   "dependencies": {
     "totp-generator": "^0.0.9"

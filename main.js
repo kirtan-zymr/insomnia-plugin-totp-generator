@@ -2,8 +2,8 @@ const totp = require("totp-generator");
 
 module.exports.templateTags = [
   {
-    name: "TOTP Generator",
-    displayName: "TOTP Generator",
+    name: "TOTP",
+    displayName: "TOTP",
     description: "Generate TOTP Code",
     args: [
       {
